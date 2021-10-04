@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 5px;
+  height: 100vh;
+  background-image: radial-gradient(
+    farthest-corner at bottom right,
+    #a7f3d0,
+    white
+  );
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  box-shadow: 1px 3px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.Inputbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  font-weight: bold;
+}
+
+.userInput {
+  border: 2px solid darkslategray;
+  border-radius: 0.3rem;
+  background-color: white;
+  height: 45px;
+  width: 260px;
+  outline: none;
+  padding: 2px 10px;
+  font-size: 18px;
+  box-shadow: 2px 5px 12px 2px rgba(0, 0, 0, 0.2);
+}
+
+.warning {
+  color: #ef4444;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.yellow {
+  background-image: radial-gradient(
+    farthest-corner at bottom right,
+    #fef08a,
+    white
+  );
+}
+
+.yellow .resultText {
+  color: #f97316;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.loss {
+  background-image: radial-gradient(
+    farthest-corner at bottom right,
+    #fee2e2,
+    white
+  );
+}
+
+.loss .resultText {
+  color: #9d174d;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.heavyloss {
+  background-image: radial-gradient(
+    farthest-corner at bottom right,
+    #fca5a5,
+    white
+  );
+}
+
+.heavyloss .resultText {
+  color: #dc2626;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.green {
+  background-image: radial-gradient(
+    farthest-corner at bottom right,
+    #86efac,
+    white
+  );
+}
+
+.green .resultText {
+  color: #3f6212;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cyan {
+  background-image: radial-gradient(
+    farthest-corner at bottom right,
+    #99f6e4,
+    white
+  );
+}
+
+.cyan .resultText {
+  color: #0369a1;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.violet {
+  background-image: radial-gradient(
+    farthest-corner at bottom right,
+    #3b82f6,
+    white
+  );
+}
+
+.violet .resultText {
+  color: #86198f;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.output {
+  max-width: 560px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
